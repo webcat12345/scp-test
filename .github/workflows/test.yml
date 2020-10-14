@@ -17,11 +17,10 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: copy file via ssh password
-        uses: appleboy/scp-action@master
+        uses: garygrossgarten/github-action-scp@release
         with:
+          local: readme.md
+          remote: public_html/readme.md
           host: ssh.stackcp.com
           username: convey.world
           password: ${{ secrets.PASSWORD }}
-          port: 22
-          source: "readme.md"
-          target: "public_html"
