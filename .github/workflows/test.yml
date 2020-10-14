@@ -21,7 +21,7 @@ jobs:
         with:
           host: ssh.stackcp.com
           username: ssh.stackcp.com
-          password: P@s$word12345
+          key: ${{ secrets.KEY }}
           port: 22
           source: "readme.md"
           target: "public_html"
