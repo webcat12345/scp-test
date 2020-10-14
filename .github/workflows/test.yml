@@ -20,7 +20,7 @@ jobs:
         uses: appleboy/scp-action@master
         with:
           host: ssh.stackcp.com
-          username: ssh.stackcp.com
+          username: convey.world
           key: ${{ secrets.KEY }}
           port: 22
           source: "readme.md"
