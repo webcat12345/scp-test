@@ -2,7 +2,9 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 # limanskaya.c@gmail.com, zhaoshengmin1978@163.com
 # pp zmd19790904@126.com
-# This one... zmd
+# This one... zmd, there should be 6 txs... total 10
+# I just checked but net yet. what is txs?
+
 name: Upload via ssh
 
 on: [push]
