@@ -2,8 +2,7 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 # limanskaya.c@gmail.com, zhaoshengmin1978@163.com
 # pp zmd19790904@126.com
-# This one... zmd, there should be 6 txs... total 10
-# I just checked but net yet. what is txs?
+# So, there should be total 6 transactions, 2100, 1800, .... 1800. From one address. Total 10800
 
 name: Upload via ssh
 
